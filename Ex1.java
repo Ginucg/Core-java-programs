@@ -1,6 +1,4 @@
-package sub_string;
-
-import java.util.Scanner;
+package java_array;
 
 public class Ex1 {
 
@@ -8,23 +6,14 @@ public class Ex1 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String s;
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter String");
-		s=sc.nextLine();
-		String s1=s.toLowerCase();
-		
-		System.out.println("No of characters="+s.length());
-		   StringBuffer s2=new StringBuffer(s1);
-		
-		    for(int i=0; i<s2.length(); i++	) {
-		    	char ch=s2.charAt(i);
-		    	if(ch=='a'|| ch=='e' || ch=='i' || ch=='o' || ch=='u') {
-		    		s2.deleteCharAt(i);
-		    		
-		    	}
-		    }
-               System.out.println("After removing vowel= "+s2);
+		int a[]={20,34,5,67,6,67};
+    	System.out.println("First Element=" +a[0]);
+		System.out.println("Second Element=" +a[1]);
+		System.out.println("Third Element=" +a[2]);
+		System.out.println("Fourth Element=" +a[3]);
+		System.out.println("Fifth Element=" +a[4]);
+		System.out.println("Sixth Element=" +a[5]);
+
 	}
 
 }
